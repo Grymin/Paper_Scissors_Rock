@@ -4,7 +4,6 @@ from random import choice
 PTS_PLAYER = 0
 PTS_CPU = 0
 
-
 def winner(player1, player2):
     beats = {"paper": "rock", "rock": "scissors", "scissors": "paper"}
     if player1 == player2:
